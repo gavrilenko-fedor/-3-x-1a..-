@@ -1,3 +1,2 @@
-<h1 style="font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;">1-ая лабаротрная работа</h1>
-<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+size=604x454&quality=96&sign=73d366c305bbf0e6e227f3920aeee09d&type=album)/></h1>
 
