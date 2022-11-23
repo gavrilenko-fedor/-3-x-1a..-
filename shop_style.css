@@ -1,0 +1,448 @@
+/* ::-webkit-scrollbar {
+    width: 10px;
+} */
+
+a {
+    color: black;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'IBM Plex Mono';
+
+    text-align: justify;
+    padding: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-underline-offset: 0.3rem;
+
+    /* text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px; */
+
+}
+
+#c1516_23{
+    font-family: Georgia, serif;
+}
+
+
+#all {
+    padding: 0 1rem 0;
+}
+
+.top {
+    font-size: 0.75rem;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 1rem 1rem 0;
+}
+
+.top span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 20s infinite linear;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+header {
+    margin-top: 1rem;
+}
+
+#name {
+
+    font-size: 1rem;
+    letter-spacing: 1.2rem;
+
+    filter: blur(10px);
+    transition: filter 2s;
+}
+
+#name:hover {
+    filter: blur(0px);
+    transition: filter 2s;
+}
+
+.list_container {
+    padding: 0;
+    margin: 0 1rem;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.list_item,
+.c1423_23 {
+    margin: 1rem 1rem;
+    font-size: 0.75rem;
+
+    text-transform: uppercase;
+    list-style: none;
+    text-underline-offset: 0.5rem;
+    padding: 0.7rem 1.5rem;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+
+.list_item>a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.list_item:hover {
+    /* background-color: wheat; */
+    border-color: black;
+    /* background-color: rgb(216, 206, 238); */
+}
+
+
+
+
+.motat {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    margin: 0 1rem;
+    margin-top: 2rem;
+}
+
+.motat .img {
+    width: 50%;
+    opacity: 60%;
+    filter: saturate(0%);
+    transition: all 0.5s;
+}
+
+.motat .img:hover {
+    filter: saturate(100%);
+    opacity: 100%;
+    transition: all 0.5s;
+}
+
+#a4t24g24 {
+    position: sticky;
+}
+
+.r3h42r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-gap: 2rem;
+}
+
+.gsd42 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 1rem;
+    font-size: 0.75em;
+
+
+    /* эксп
+    background-color: black;
+    color: white; */
+
+    position: sticky;
+
+}
+
+#a1 {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+.motat .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 1rem;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+
+
+
+
+
+
+/* меню с блоками грид то-сё */
+
+.c1349_23 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#c1406_23 {
+    margin: 0 1rem;
+    font-family: Georgia, serif;
+}
+
+.c1400_23 {
+    display: flex;
+    font-size: 0.75rem;
+    margin: 1rem;
+
+    text-transform: uppercase;
+}
+
+.c1400_23>div {
+    margin: 1rem 1rem;
+}
+
+/* #c1402_23::after {
+    content: ' | ';
+} */
+
+/* #c1402_23_2::after {
+    content: ' < ';
+} */
+
+.c1400_23 {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.c1400_23 a {
+    text-decoration: none;
+    color: black;
+}
+
+.c1400_23 a:hover {
+    text-decoration: underline;
+}
+
+
+.blocks {
+    padding: 1rem 0 0;
+}
+
+.blocks .css1943 {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.blocks .name {
+    font-family: Georgia, serif;
+    font-weight: 500;
+}
+
+
+.blocks .block {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+}
+
+.block>div {
+    margin: 0.5rem 0;
+}
+
+.blocks .img {
+    position: relative;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .blocks .img #img1{
+    filter: saturate(0%);
+    opacity: 60%;
+    transition: all 3s;
+} */
+
+
+#img1 {
+    width: 100%;
+}
+
+#c1229_23 {
+    position: absolute;
+    /* bottom: 100%; */
+    top: 0;
+    left: 0;
+    opacity: 30%;
+    padding: 0.2rem 0.8rem 0.4rem;
+    background-color: rgb(255, 255, 255);
+    /* opacity: 30%; */
+
+    filter: blur(1px);
+    transition: all 1.5s;
+}
+
+#c1229_23>a {
+    font-size: 0.7rem;
+
+    text-transform: uppercase;
+    /* text-decoration: none; */
+    color: rgb(0, 0, 0);
+}
+
+.c1300_2311 {
+    font-size: 0.9rem;
+}
+
+
+
+.blocks .img {
+    opacity: 60%;
+    filter: saturate(0%);
+    transition: all 3s;
+
+    /* box-shadow: 5px 5px 20px rgb(209, 209, 209); */
+}
+
+.blocks .img:hover {
+    opacity: 100%;
+    filter: saturate(100%);
+
+    /* font-weight: bold; */
+    color: black;
+    transition: all 0.5s;
+}
+
+.blocks .img>#c1229_23:hover {
+    filter: blur(0);
+    opacity: 100%;
+    color: black;
+    transition: all 0.5s;
+}
+
+
+
+/* цены */
+.blocks .price {
+    color: rgb(120, 120, 120);
+    filter: blur(0.4em);
+    transition: all 1.5s;
+}
+
+.blocks .price:hover {
+    filter: blur(0);
+    transition: all 0.5s;
+}
+
+.c1423_23:hover {
+    /* background-color: wheat; */
+    border-color: black;
+    /* text-decoration: underline; */
+
+}
+
+.c1423_23 a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+
+/* Футер */
+footer {
+    margin-top: 5rem;
+}
+
+footer>div {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+footer p {
+    margin: 0.5rem 1rem 1rem;
+}
+
+#c120_23 {
+    color: white;
+    background-color: black
+}
+
+#c1208_23 {
+    border-color: white;
+    padding: 0;
+}
+
+footer p {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 1rem;
+    font-size: 0.75rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+@media (width < 1400px) {
+    .list_container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .blocks .css1943 {
+        grid-template-columns: repeat(3, 33%);
+    }
+
+    footer>div {
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+@media (width < 1100px) {
+    .blocks .css1943 {
+        grid-template-columns: repeat(2, 50%);
+    }
+
+    footer>div {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media (width < 800px) {
+
+
+    .blocks .css1943 {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    footer>div {
+        grid-template-columns: repeat(1, 100%);
+    }
+}
